@@ -3,7 +3,7 @@ Bot em Java com modelo MVC para aula de Engenharia de Software 3 da Fatec
 
 
 
-![diagramadeclasse](https://user-images.githubusercontent.com/31158250/39105579-257bbbfe-468d-11e8-8081-891d1902adef.JPG)
+![alt text](./BotMVC/Imagens/DiagramaDeClasse.jpg)
 
 
 
