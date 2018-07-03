@@ -14,7 +14,7 @@ import com.pengrad.telegrambot.response.SendResponse;
 public class View implements Observer{
 
 	
-	TelegramBot bot = TelegramBotAdapter.build("556204700:AAG--cMaRhw-8AMaiociKtc6Wwc5RKjjxLs");
+	TelegramBot bot = TelegramBotAdapter.build("478668303:AAEtBGk5L6W6H546d7uTMJSP6h20Fy3Xh5U");
 
 	//Objeto que recebe as mensagens
 	GetUpdatesResponse updatesResponse;
@@ -102,7 +102,7 @@ public class View implements Observer{
 					
 					
 				}else {
-					sendResponse = bot.execute(new SendMessage(update.message().chat().id(),"Digite:\nAdicionar(para adicionar um evento), \nListar(para procurar um evento),\nRemover(para remover um evento)"));
+					sendResponse = bot.execute(new SendMessage(update.message().chat().id(),"Ola " + update.message().chat().firstName() + "\nDigite:\nAdicionar(para adicionar um evento), \nListar(para procurar um evento),\nRemover(para remover um evento)"));
 				}
 			
 			}

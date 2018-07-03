@@ -95,11 +95,11 @@ public class Model implements Subject{
     	MongoDatabase db = client.getDatabase(uri.getDatabase());
     	MongoCollection<Document> Evento = db.getCollection("Eventos");
     	
-    	if(update.message().text().equals("todos")) {
+    	if(update.message().text().equals("Todos")) {
     		FindIterable<Document> found = Evento.find();
     		
+    		this.notifyObservers(update.message().chat().id(), "Eventos: ");
         	for(Document doc:found){
-        		this.notifyObservers(update.message().chat().id(), "Eventos: ");
         		this.notifyObservers(update.message().chat().id(), doc.getString("Evento"));
     		}
     	}else {
@@ -109,8 +109,8 @@ public class Model implements Subject{
     		System.out.println(parse);
     		FindIterable<Document> found = Evento.find(new Document("Evento", parse));
     		
+    		this.notifyObservers(update.message().chat().id(), "Evento encontrado: ");
         	for(Document doc:found){
-        		this.notifyObservers(update.message().chat().id(), "Eventos: ");
         		this.notifyObservers(update.message().chat().id(), doc.getString("Evento"));
     		}
     	}
@@ -126,7 +126,7 @@ public class Model implements Subject{
 		MongoDatabase db = client.getDatabase(uri.getDatabase());
 	    MongoCollection<Document> Evento = db.getCollection("Eventos");
 	
-	    if(update.message().text().equals("todos")) {
+	    if(update.message().text().equals("Todos")) {
 	    	Evento.deleteMany(filter);
 	    	this.notifyObservers(update.message().chat().id(), "Eventos apagados com sucesso! ");
 	    }else {
