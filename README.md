@@ -12,7 +12,7 @@ EXECUTANDO O BOT
 
 Adicionando o Evento
 
-![alt text](./BotMVC/Imagens/im1.jpg)
+![alt text](./BotMVC/Imagens/im1.jpg =800x600) 
 
 ![alt text](./BotMVC/Imagens/im2.jpg)
 
