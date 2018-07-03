@@ -12,10 +12,12 @@ EXECUTANDO O BOT
 
 Adicionando o Evento
 
-![photo_2018-04-12_00-01-34](https://user-images.githubusercontent.com/31158250/39105616-471eecc2-468d-11e8-9aa0-e3992514cb41.jpg)
+![alt text](./BotMVC/Imagens/im1.jpg)
+
+![alt text](./BotMVC/Imagens/im2.jpg)
+
+![alt text](./BotMVC/Imagens/im3.jpg)
+
+![alt text](./BotMVC/Imagens/im4.jpg)
 
 
-
-Procurando Eventos
-
-![photo_2018-04-12_00-02-16](https://user-images.githubusercontent.com/31158250/39105642-5f994ff4-468d-11e8-8b9a-29f00a34891d.jpg)
